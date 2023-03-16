@@ -34,9 +34,10 @@ const Forms = () => {
     }
 
     return (
-        <div className="container">
+        <div className="container card mt-5 py-5 px-3 col-4">
             <form onSubmit={handleSubmit(onSubmit)}>
-                <div className="mt-5 mb-3">
+                <h3 className="text-center">Registration Form</h3>
+                <div className="mb-3">
                     <label htmlFor="inputNPM" className="form-label">NPM</label>
                     <input
                         className="form-control"
